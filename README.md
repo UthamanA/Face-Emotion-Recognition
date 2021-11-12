@@ -69,6 +69,14 @@ https://github.com/UthamanA/Face-Emotion-Recognition/blob/main/Face_Emotion_Reco
 
 # Realtime Local Video Face Detection
 I created two patterns for detecting and predicting single faces and as well as multiple faces using OpenCV videocapture in local. For Webapp , OpenCV can’t be used. Thus, using Streamlit-Webrtc for front-end application.
+# Deployment of Streamlit WebApp in Heroku and Streamlit
+In this repository I have made a front end using streamlit .Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. I have used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku and streamlit platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku and streamlit.
+
+Heroku Link:- http://faceemoreg.herokuapp.com/
+
+Streamlit Link:- https://share.streamlit.io/uthamana/face-emotion-recognition/main/app.py
+
+[ N.B:- If the website didn’t open , then try refreshing the page 2 to 3 times.]
 
 # Conclusion
 
