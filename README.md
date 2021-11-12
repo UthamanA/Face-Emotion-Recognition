@@ -23,9 +23,13 @@ I have built a deep learning model which detects the real time emotions of stude
 
 # Dependencies
   1.Python 3
+  
   2.Tensorflow 2.0
+  
   3.Streamlit
+  
   4.Streamlit-Webrtc
+  
   5.OpenCV
   
   # Model Creation
